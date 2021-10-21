@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/*">
+    <Resource name="jdbc/murach" auth="Container" 
+        driverClassName="org.postgresql.Driver" 
+        url="jdbc:postgresql://ec2-34-199-15-136.compute-1.amazonaws.com:5432/d7qs03ov0sqdq?currentSchema=demo" 
+        username="pvncwffuauelvv" password="ae8dc992f5dbf499c8bc1a4d88340f3e4593c1d7dd6a953563bcf04598a22c8f" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>

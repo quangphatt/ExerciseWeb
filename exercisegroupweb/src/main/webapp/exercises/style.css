@@ -1,0 +1,33 @@
+@charset "utf-8";
+.body{
+	background-color: #79CDCD;
+}
+#body1{
+	background-color: #111100;
+	color: white;
+}
+
+table,tr,td, th{
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+td{
+	height: 60px;
+}
+th{
+	height: 30px;
+}
+.center{
+	text-align: center;
+	font-weight: bold;
+}
+#title{
+	font-size: 50px;
+	text-align: center;
+}

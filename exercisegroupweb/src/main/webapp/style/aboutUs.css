@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Muli',sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+    background-color: #a1dde6;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.nav{
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav.active{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.nav.active a{
+    color: #000;
+}
+
+.nav.active .container{
+    padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover{
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.aboutus{
+    margin-top: 100px;
+}
+
+.in4{
+    text-align: center;
+}
+
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info{
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    color: black;
+    width: 420px;
+    height: 400px;
+}
+
+img{
+    
+    width: 200px;
+    height: 200px;
+    border: 10px solid #ddd;
+    border-radius: 50%;
+    
+}
+
+.name{
+    font-size: 30px;
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.id{
+    margin: 5px;
+}
+
+
+
+
+

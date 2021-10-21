@@ -1,0 +1,47 @@
+body{
+	background-image: url("./image/background5.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#tieude{
+	font-size: 50px;
+	color: #AAD130;
+}
+.name,.baitap{
+	color: #E1C6C7;
+	font-size: 30px;
+	text-decoration: none;
+}
+#main{
+	float: left;
+	width: 50%;
+	height: 100%;	
+}
+#submain{
+	width: 50%;
+	float: left;
+}
+#div1,#div2,#div3,#BT1{
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+.tenmssv{
+	width: 50%;
+	float: left;
+}
+.mssv{
+	text-align: center;
+	color: #E1C6C7;
+	font-size: 30px;
+}
+.baitap:hover{
+	color: #526FBD;
+}
+.BT{
+	color: #E1C6C7;
+	font-size: 25px;
+}
+
+
