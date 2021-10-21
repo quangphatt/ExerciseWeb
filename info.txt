@@ -1,0 +1,5 @@
+exercisegroupweb: Exercise Web + Exercise 1 + Exercise 2
+exercise3web: Excercise 3
+addtocartexercise: Exercise 4
+demowebne: Exercise 5
+finalprojectlaptrinhweb: Final Project Web
